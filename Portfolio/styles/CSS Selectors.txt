@@ -1,0 +1,30 @@
+CSS Selectors
+	ID Selector syntax: #<idName>
+		Pros
+		- most powerful
+		- most specificity
+		- beat out all other selectors and styles
+		Cons
+		- nice to have lower specificity selectors that are easier to override
+		Points
+		-1,0,0,0 <- auto wins
+	Class Selector syntax: .<className>
+		Pros
+		- most useful
+		- most versatile
+		- supported by all browsers
+		- JavaScript can act on class selectors
+		Points
+		-0,1,0,0
+	Tag\element Selector syntax: h1, p, (most html tags)
+		Pros
+		- most useful when changing properties
+		- unique to HTML element
+		- nice for using to reset stylesheets
+		Cons
+		- don't rely on them to much
+		- more useful to have classes defined
+	Attribute Selector syntax: [<attribute type> = "<attribute setting>"]
+		Pros
+		- same specificity as classes
+
