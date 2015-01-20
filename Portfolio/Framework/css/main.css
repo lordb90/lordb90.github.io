@@ -11,6 +11,13 @@
     box-sizing: border-box;
 } 
 
+@media only screen and (max-width: 500px) and (orientation: landscape)
+{
+	p 
+	{
+		display: none;
+	}
+}
 
 .grid {
     margin: 0 auto;
@@ -22,6 +29,7 @@
     width: 100%;
     margin-bottom: 20px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .col-1 {
