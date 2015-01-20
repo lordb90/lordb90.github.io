@@ -6,16 +6,12 @@ CSS Selectors
 		- beat out all other selectors and styles
 		Cons
 		- nice to have lower specificity selectors that are easier to override
-		Points
-		-1,0,0,0 <- auto wins
 	Class Selector syntax: .<className>
 		Pros
 		- most useful
 		- most versatile
 		- supported by all browsers
 		- JavaScript can act on class selectors
-		Points
-		-0,1,0,0
 	Tag\element Selector syntax: h1, p, (most html tags)
 		Pros
 		- most useful when changing properties
@@ -27,4 +23,13 @@ CSS Selectors
 	Attribute Selector syntax: [<attribute type> = "<attribute setting>"]
 		Pros
 		- same specificity as classes
+
+	Browser Specific prefix
+		- Add to style definitions if a specific browser interpretation of 
+		a style may or may not be supported
+		-webkit-<style name>: <value>;
+		-moz-<style name>: <value>;
+		-ms-<style name>: <value>;
+
+		
 
